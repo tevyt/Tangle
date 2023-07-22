@@ -41,9 +41,9 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <p className="text-2xl text-white">
-            {hello.data ? hello.data.greeting : "Loading tRPC query..."}
-          </p>
+          <a href="/api/auth/login" className="text-2xl text-white">
+            Login
+          </a>
         </div>
       </main>
     </>
